@@ -13,6 +13,11 @@ title: アプリ一覧
     <h2>金魚すくいDX 夏祭り</h2>
     <p>夏祭りの定番。ポイで金魚をすくうアクションゲーム</p>
   </a>
+  <a class="app-card" href="https://play.google.com/store/apps/details?id=com.LinQ.GoldfishScooping">
+    <img src="{{ '/assets/img/goldfish_old.png' | relative_url }}" alt="金魚すくい">
+    <h2>金魚すくい</h2>
+    <p>金魚すくいゲームの旧作(Google Play)</p>
+  </a>
   <a class="app-card" href="whack-a-mole/">
     <img src="{{ '/assets/img/mole.png' | relative_url }}" alt="もぐらたたき">
     <h2>もぐらたたき</h2>
