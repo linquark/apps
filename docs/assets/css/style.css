@@ -71,18 +71,34 @@ main { padding: 40px 0 64px; }
 }
 
 .app-card {
-  display: block;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 22px;
-  text-decoration: none;
-  color: inherit;
   transition: box-shadow .15s ease, transform .15s ease;
 }
 .app-card:hover {
   box-shadow: 0 6px 18px rgba(0,0,0,.08);
   transform: translateY(-2px);
+}
+.card-body {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+.store-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: var(--accent-dark);
+  border: 1px solid var(--accent-dark);
+  border-radius: 999px;
+  padding: 3px 12px;
+  text-decoration: none;
+}
+.store-link:hover {
+  background: var(--accent-dark);
+  color: #fff;
 }
 .app-card img {
   width: 64px;
