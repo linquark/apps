@@ -41,7 +41,7 @@ title: アプリ一覧
     <a class="store-link" href="https://play.google.com/store/apps/details?id=com.Linq.marimo">Google Play で見る</a>
   </div>
   <div class="app-card">
-    <a class="card-body" href="https://play.google.com/store/apps/details?id=com.LinQ.LightsOut">
+    <a class="card-body" href="privacy/">
       <img src="{{ '/assets/img/lightsout.png' | relative_url }}" alt="ライツアウト">
       <h2>ライツアウト</h2>
       <p>頭脳パズルゲーム。すべての明かりを消そう</p>
@@ -49,7 +49,7 @@ title: アプリ一覧
     <a class="store-link" href="https://play.google.com/store/apps/details?id=com.LinQ.LightsOut">Google Play で見る</a>
   </div>
   <div class="app-card">
-    <a class="card-body" href="https://play.google.com/store/apps/details?id=com.PureWater.ButtonMashing">
+    <a class="card-body" href="privacy/">
       <img src="{{ '/assets/img/buttonmashing.png' | relative_url }}" alt="ただ、連打するだけ。">
       <h2>ただ、連打するだけ。</h2>
       <p>ひたすら連打するだけのシンプルゲーム</p>
@@ -57,7 +57,7 @@ title: アプリ一覧
     <a class="store-link" href="https://play.google.com/store/apps/details?id=com.PureWater.ButtonMashing">Google Play で見る</a>
   </div>
   <div class="app-card">
-    <a class="card-body" href="https://play.google.com/store/apps/details?id=com.PureWater.IsThisPrimeNumber">
+    <a class="card-body" href="privacy/">
       <img src="{{ '/assets/img/primenumber.png' | relative_url }}" alt="これは素数ですか？">
       <h2>これは素数ですか？</h2>
       <p>数学系脳トレアプリ</p>
@@ -65,7 +65,7 @@ title: アプリ一覧
     <a class="store-link" href="https://play.google.com/store/apps/details?id=com.PureWater.IsThisPrimeNumber">Google Play で見る</a>
   </div>
   <div class="app-card">
-    <a class="card-body" href="https://play.google.com/store/apps/details?id=com.PureWater.Nekojyarashi">
+    <a class="card-body" href="privacy/">
       <img src="{{ '/assets/img/nekojyarashi.png' | relative_url }}" alt="猫じゃらし">
       <h2>猫じゃらし</h2>
       <p>猫と遊べる猫じゃらしアプリ</p>
