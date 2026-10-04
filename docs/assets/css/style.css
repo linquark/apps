@@ -1,0 +1,155 @@
+:root {
+  --bg: #f6f4ef;
+  --ink: #2b2b2b;
+  --muted: #6b6b6b;
+  --accent: #e8644a;
+  --accent-dark: #c94f38;
+  --card: #ffffff;
+  --line: #e7e2d8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Noto Sans JP", Meiryo, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.7;
+}
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #e8644a 0%, #e89a4a 100%);
+  color: #fff;
+  padding: 14px 0;
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.nav a {
+  color: rgba(255,255,255,0.92);
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-bottom: 1px solid transparent;
+}
+.nav a:hover { border-bottom-color: #fff; }
+
+main { padding: 40px 0 64px; }
+
+.hero {
+  text-align: center;
+  padding: 28px 0 40px;
+}
+.hero h1 {
+  font-size: 1.9rem;
+  margin: 0 0 8px;
+}
+.hero p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.app-card {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 22px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow .15s ease, transform .15s ease;
+}
+.app-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+  transform: translateY(-2px);
+}
+.app-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  display: block;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+.app-card .icon-fallback {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  background: #fdeee7;
+  margin-bottom: 12px;
+}
+.app-card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 4px;
+}
+.app-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+h1, h2, h3 { line-height: 1.4; }
+
+.page-content {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 28px 32px;
+}
+.page-content h1 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+.page-content h2 {
+  font-size: 1.15rem;
+  margin-top: 28px;
+}
+.page-content h3 {
+  font-size: 1rem;
+  margin-top: 22px;
+}
+.page-content a { color: var(--accent-dark); }
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: var(--accent-dark);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.back-link:hover { text-decoration: underline; }
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 20px 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}

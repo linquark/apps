@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">Linquark Apps</a>
+      <nav class="nav">
+        <a href="{{ '/privacy/' | relative_url }}">プライバシーポリシー</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {% if page.url == '/' or page.url == '/index.html' %}
+      {{ content }}
+    {% else %}
+      <a class="back-link" href="{{ '/' | relative_url }}">&larr; アプリ一覧に戻る</a>
+      <div class="page-content">
+        {{ content }}
+      </div>
+    {% endif %}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; Linquark</p>
+    </div>
+  </footer>
+</body>
+</html>
