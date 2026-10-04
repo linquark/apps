@@ -14,17 +14,17 @@ title: アプリ一覧
     <p>夏祭りの定番。ポイで金魚をすくうアクションゲーム</p>
   </a>
   <a class="app-card" href="whack-a-mole/">
-    <div class="icon-fallback">🔨</div>
+    <img src="{{ '/assets/img/mole.png' | relative_url }}" alt="もぐらたたき">
     <h2>もぐらたたき</h2>
     <p>シンプルなもぐらたたきゲーム</p>
   </a>
   <a class="app-card" href="marimo/">
-    <div class="icon-fallback">🟢</div>
+    <img src="{{ '/assets/img/marimo.png' | relative_url }}" alt="まりも育成！">
     <h2>まりも育成！</h2>
     <p>まりもを飼える放置系育成アプリ</p>
   </a>
   <a class="app-card" href="kanzi/">
-    <div class="icon-fallback">✏️</div>
+    <img src="{{ '/assets/img/kanji.png' | relative_url }}" alt="小学生向け漢字学習">
     <h2>小学生向け漢字学習</h2>
     <p>学年別の漢字学習アプリシリーズ</p>
   </a>
