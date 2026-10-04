@@ -13,7 +13,7 @@ title: アプリ一覧
     <h2>金魚すくいDX 夏祭り</h2>
     <p>夏祭りの定番。ポイで金魚をすくうアクションゲーム</p>
   </a>
-  <a class="app-card" href="https://play.google.com/store/apps/details?id=com.LinQ.GoldfishScooping">
+  <a class="app-card" href="gold-fish-scooping/">
     <img src="{{ '/assets/img/goldfish_old.png' | relative_url }}" alt="金魚すくい">
     <h2>金魚すくい</h2>
     <p>金魚すくいゲームの旧作(Google Play)</p>
@@ -27,10 +27,5 @@ title: アプリ一覧
     <img src="{{ '/assets/img/marimo.png' | relative_url }}" alt="まりも育成！">
     <h2>まりも育成！</h2>
     <p>まりもを飼える放置系育成アプリ</p>
-  </a>
-  <a class="app-card" href="kanzi/">
-    <img src="{{ '/assets/img/kanji.png' | relative_url }}" alt="小学生向け漢字学習">
-    <h2>小学生向け漢字学習</h2>
-    <p>学年別の漢字学習アプリシリーズ</p>
   </a>
 </div>
